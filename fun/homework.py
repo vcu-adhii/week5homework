@@ -12,10 +12,10 @@ def find_least_number(incoming_list):
 
 def add_list_numbers(incoming_list):
     incoming_list = ([1, 2, 3, 4, 5, 6, 7, 8])
-    total = sum(incoming_list)
+    sum(incoming_list)
     pass
 
 def longest_value_key(incoming_dict):
     incoming_dict = ({"dog": "cat", "a": "asdfasdfasdfasdfasdf"})
-    longest_string = max(incoming_dict, key=len)
+    max(incoming_dict, key=len)
     pass
