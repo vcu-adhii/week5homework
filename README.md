@@ -1,4 +1,4 @@
-# week5Homework
+# week5HomeworkREADME
 
 [![isort](https://github.com/vcu-adhii/week5homework/actions/workflows/isort.yml/badge.svg)](https://github.com/vcu-chfauerbach/week5homework/actions/workflows/isort.yml)
 
