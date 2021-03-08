@@ -24,10 +24,10 @@ def longest_value_key(incoming_dict):
         return None
     current_longest_value = 0
     longest_value = ""
-    for key, value in incoming_dict.items():
-        if len(value) > current_longest_value:
-            current_longest_value = len(value)
-            longest_value = value
-    for key, value in incoming_dict.items():
-        if value == longest_value:
+    for key, y in incoming_dict.items():
+        if len(y) > current_longest_value:
+            current_longest_value = len(y)
+            longest_value = y
+    for key, y in incoming_dict.items():
+        if y == longest_value:
             return key
