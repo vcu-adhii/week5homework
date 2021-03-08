@@ -28,12 +28,12 @@ def add_list_numbers(incoming_list):
 def longest_value_key(incoming_dict):
     if incoming_dict is None:
         return None
-    current_longest_value = 0
-    longest_value = ""
-    for x, y in incoming_dict.items():
-        if len(y) > current_longest_value:
-            current_longest_value = len(y)
-            longest_value = y
-    for x, y in incoming_dict.items():
-        if y == longest_value:
+    current_values_used = 0
+    longest_key = ""
+    for x, y in incoming_dict.values():
+        if len(y) > current_values_used:
+            current_values_used = len(y)
+            longest_key = y
+    for x, y in incoming_dict.values():
+        if y == longest_key:
             return x
