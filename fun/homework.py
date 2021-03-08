@@ -5,8 +5,8 @@ def find_greatest_number(incoming_list):
     if incoming_list is None or len(incoming_list) == 0:
         return 0
     incoming_list = [1, 2, 3, 4, 5, 6, 7, 8]
+        return value1
     value1 = (max(incoming_list))
-    return value1
     pass
 
 
@@ -14,8 +14,8 @@ def find_least_number(incoming_list):
     if incoming_list is None or len(incoming_list) == 0:
         return 0
     incoming_list = [1, 2, 3, 4, 5, 6, 7, 8]
+        return value2
     value2 = (min(incoming_list))
-    return value2
     pass
 
 
@@ -23,7 +23,7 @@ def add_list_numbers(incoming_list):
     if incoming_list is None:
         return 0
     value3 = incoming_list = [1, 2, 3, 4]
-    return value3
+        return value3
     sum(incoming_list)
     pass
 
