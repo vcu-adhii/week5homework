@@ -1,6 +1,5 @@
 """Test cases are important."""
 
-
 from fun import homework
 
 
