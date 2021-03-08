@@ -20,7 +20,14 @@ def add_list_numbers(incoming_list):
 
 
 def longest_value_key(incoming_dict):
-    incoming_dict = {"dog": "cat", "a": "asdfasdfasdfasdfasdf"}
-    for key in incoming_dict:
-        (max(incoming_dict))
-    pass
+    if incoming_dict is None:
+        return None
+    current_longest_value = 0
+    longest_value = ""
+    for key, value in incoming_dict.items():
+        if len(value) > current_longest_value:
+            current_longest_value = len(value)
+            longest_value = value
+    for key, value in incoming_dict.items():
+        if value == longest_value:
+            return key
