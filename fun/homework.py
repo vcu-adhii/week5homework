@@ -2,19 +2,19 @@
 
 
 def find_greatest_number(incoming_list):
-    incoming_list = [1, 2, 3, 4, 5, 6, 7, 8]
+    incoming_list = []
     (max(incoming_list))
     pass
 
 
 def find_least_number(incoming_list):
-    incoming_list = [1, 2, 3, 4, 5, 6, 7, 8]
+    incoming_list = []
     (min(incoming_list))
     pass
 
 
 def add_list_numbers(incoming_list):
-    incoming_list = [1, 2, 3, 4, 5, 6, 7, 8]
+    incoming_list = []
     sum(incoming_list)
     pass
 
