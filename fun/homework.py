@@ -6,6 +6,7 @@ def find_greatest_number(incoming_list):
         return 0
     incoming_list = [1, 2, 3, 4, 5, 6, 7, 8]
     (max(incoming_list))
+    return incoming_list
     pass
 
 
@@ -14,6 +15,7 @@ def find_least_number(incoming_list):
         return 0
     incoming_list = [1, 2, 3, 4, 5, 6, 7, 8]
     (min(incoming_list))
+    return incoming_list
     pass
 
 
@@ -22,6 +24,7 @@ def add_list_numbers(incoming_list):
         return 0
     incoming_list = [1, 2, 3, 4]
     sum(incoming_list)
+    return incoming_list
     pass
 
 
