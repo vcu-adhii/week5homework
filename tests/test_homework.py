@@ -18,6 +18,7 @@ def test_least_number():
 def test_sum_of_list():
     """Quick test to see if you can add together all the numbers in a list."""
     assert homework.add_list_numbers([1, 2, 3, 4]) == 10
+    assert homework.add_list_numbers([]) == 0
     assert homework.add_list_numbers(None) == 0
 
 
