@@ -1,5 +1,5 @@
 {
-    "python.pythonPath": "/Users/ibadadhi/Library/Python/3.9/bin",
+    "python.pythonPath": "/Users/ibadadhi/opt/anaconda3/bin/python",
     "python.formatting.provider": "black",
     "editor.formatOnSave": true
 }
