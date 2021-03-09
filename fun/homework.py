@@ -26,4 +26,4 @@ def longest_value_key(incoming_dict):
         return None
     incoming_dict = {"dog": "cat", "a": "asdfasdfasdfasdfasdf"}
     longest_value_key = max(incoming_dict, key=len)
-    print(longest_value_key)
+    return longest_value_key
