@@ -20,7 +20,7 @@ def add_list_numbers(incoming_list):
         return 0
     incoming_list = [1, 2, 3, 4]
     total = sum(incoming_list)
-    return total
+    print("The sum is:",total)
 
 
 def longest_value_key(incoming_dict):
