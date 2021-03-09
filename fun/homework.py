@@ -6,7 +6,7 @@ def find_greatest_number(incoming_list):
         return 0
     incoming_list = [1, 2, 3, 4, 5, 6, 7, 8]
     (max(incoming_list))
-    
+
 
 def find_least_number(incoming_list):
     if incoming_list is None or len(incoming_list) == 0:
