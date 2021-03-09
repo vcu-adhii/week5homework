@@ -18,7 +18,7 @@ def find_least_number(incoming_list):
 def add_list_numbers(incoming_list):
     incoming_list = [1, 2, 3, 4]
     total = sum(incoming_list)
-    print("The sum is:",total)
+    print("The sum is:", total)
 
 
 def longest_value_key(incoming_dict):
@@ -26,4 +26,4 @@ def longest_value_key(incoming_dict):
         return None
     incoming_dict = {"dog": "cat", "a": "asdfasdfasdfasdfasdf"}
     longest_value_key = max(incoming_dict, key=len)
-    return longest_value_key
+    print(longest_value_key)
