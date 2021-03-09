@@ -24,6 +24,6 @@ def add_list_numbers(incoming_list):
 
 
 def longest_value_key(incoming_dict):
-    incoming_dict = {"dog": "cat", "a": "asdfasgdfasdfhasdfasdf"}
+    incoming_dict = {"dog": "cat", "a": "asdfasgfdfasdfhasdfasdf"}
     longest_value_key = max(incoming_dict, key=len)
     return longest_value_key
